@@ -2,16 +2,16 @@
 
 There are two main files:
 1)  .travis.yml: To configure the Travis and set the environment for test
-2)  starter_notebook.ipynb: The file containing the codes
+2)  hw4_starter_notebook.ipynb: The file containing the codes
 
 The optimized results are as follows:
-We got the ten most frequent words appearing in different topics and the best prediction accuracy 0.864.
-![topic]()
+We got the ten most frequent words appearing in different topics and the best prediction accuracy 0.864.  
+![topic](class_distribution.JPG)
 
 
 The steps in the code:
-1)  Data Cleaning
-    ![class distribution]()
+1)  Data Cleaning  
+    ![class distribution](topic.JPG)  
       - Load the data, visualize the class distribution. Clean up the target labels. Some categories have been arbitrarily split and need to be consolidated. 
 2)  Model 1
       - Run a baseline multi-class classification model using a bag-of-word approach, report macro f1-score ( above .5) and visualize the confusion matrix and interpret the mistakes made by the model. 
