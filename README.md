@@ -6,12 +6,12 @@ There are two main files:
 
 The optimized results are as follows:
 We got the ten most frequent words appearing in different topics and the best prediction accuracy 0.864.  
-![topic](class_distribution.JPG)
+![topic](topic.JPG)
 
 
 The steps in the code:
 1)  Data Cleaning  
-    ![class distribution](topic.JPG)  
+    ![class distribution](class distribution.JPG)  
       - Load the data, visualize the class distribution. Clean up the target labels. Some categories have been arbitrarily split and need to be consolidated. 
 2)  Model 1
       - Run a baseline multi-class classification model using a bag-of-word approach, report macro f1-score ( above .5) and visualize the confusion matrix and interpret the mistakes made by the model. 
