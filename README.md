@@ -11,7 +11,7 @@ We got the ten most frequent words appearing in different topics and the best pr
 
 The steps in the code:
 1)  Data Cleaning  
-    ![class distribution](class distribution.JPG)  
+    ![class distribution](class_distribution.JPG)  
       - Load the data, visualize the class distribution. Clean up the target labels. Some categories have been arbitrarily split and need to be consolidated. 
 2)  Model 1
       - Run a baseline multi-class classification model using a bag-of-word approach, report macro f1-score ( above .5) and visualize the confusion matrix and interpret the mistakes made by the model. 
